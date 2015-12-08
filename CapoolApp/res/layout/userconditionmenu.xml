@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:splitMotionEvents="false" >
+
+    <Button
+        android:id="@+id/UserConditionMenu_Taxi"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="10dip"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="택시"
+        android:textColor="#FFFFFF"
+        android:textSize="50sp" />
+
+    <Button
+        android:id="@+id/UserConditionMenu_Driver"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="10dip"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="운전자"
+        android:textColor="#FFFFFF"
+        android:textSize="50sp" />
+    
+    <Button
+        android:id="@+id/UserConditionMenu_Boarder"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="10dip"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="탑승자"
+        android:textColor="#FFFFFF"
+        android:textSize="50sp" />
+</LinearLayout>

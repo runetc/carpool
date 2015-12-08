@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:splitMotionEvents="false" >
+
+    <Button
+        android:id="@+id/status_menu_user_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dip"
+        android:layout_weight="1"
+        android:text="회원정보"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/status_present_condition"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dip"
+        android:layout_weight="1"
+        android:text="신청 현황"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/status_menu_appraisal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dip"
+        android:layout_weight="1"
+        android:text="평가 하기"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/status_menu_view_appraisal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dip"
+        android:layout_weight="1"
+        android:text="내 평가 보기"
+        android:textColor="#ffffff" />
+
+</LinearLayout>
